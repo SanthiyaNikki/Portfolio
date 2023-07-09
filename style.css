@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  background-color: black;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 30px;
+}
+.name {
+  width: 210px;
+  height: auto;
+  font-size: 30px;
+}
+.navtag {
+  margin-right: 20px;
+}
+.navtag ul {
+  display: flex;
+}
+.navtag ul li {
+  margin-right: 10px;
+  padding-bottom: 3px;
+  list-style-type: none;
+  color: #ffffff67;
+}
+.navtag ul li a {
+  color: #ffffff67;
+  text-decoration: none;
+}
+/* Sections*/
+section {
+  position: relative;
+  height: 100vh;
+  align-items: center;
+}
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectiondiv {
+  position: absolute;
+  left: 250px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectiondiv h1 {
+  font-size: 55px;
+  line-height: 1.2;
+}
+.sectiondiv p {
+  color: #ffffff9f;
+  font-size: 20px;
+}
+.img1 img {
+  border-radius: 2px;
+  height: 100px;
+  width: 100px;
+  margin-left: 150px;
+}
+span {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 15px;
+  border: 2px solid #3cc0e9;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #3cc0e9;
+  text-decoration: none;
+}
+/*
+About*/
+.section2 {
+  align-items: center;
+  height: 100vh;
+  max-width: 700px;
+  left: 250px;
+}
+.div2 p {
+  color: #ffffffa6;
+  font-size: 20px;
+}
+.div h2 {
+  font-size: 40px;
+}
+/*
+Experience
+*/
+img {
+  height: 150px;
+  width: 150px;
+}
+.grid {
+  display: grid;
+  border-radius: 5px;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 400px);
+  align-items: center;
+  position: relative;
+}
+.grid > div {
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 3px;
+  display: grid;
+  font-size: 24px;
+  place-content: center;
+  font-weight: bold;
+}
+.section3 {
+  max-width: 700px;
+  left: 250px;
+}
+.section3 h2 {
+  font-size: 30px;
+}
+.section3 p {
+  font-size: 20px;
+  color: #ffffffb2;
+}
+.grid p {
+  color: #fff;
+  align-items: center;
+}
+.grid1 {
+  margin: 0.2rem 0.2rem;
+  box-shadow: 0px 6px 5px rgba(214, 24, 151, 0.25);
+}
